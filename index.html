@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de la compra</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+   <!--no te olvides de agregar un font (Nota para santiago del futuro)-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h3>Lista de la compra</h3>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="Comida,Bedidas,etc" />
+          <button type="submit" class="submit-btn">Ingresar</button>
+        </div>
+      </form>
+      <div class="grocery-container">
+        <div class="grocery-list"></div>
+        <button class="clear-btn">Borrar todos los items</button>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
